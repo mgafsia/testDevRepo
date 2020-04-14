@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:jpa
+    driver: org.h2.Driver
+    username: jpa
+    password: jpa
+    enabled: true
+  h2:
+    console:
+      enabled: true
+
+server:
+  port : 8081
